@@ -7,18 +7,26 @@ body{
     background-color: white;
 }
 .topbar{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.4);
     height: 30px;
 }
 .topbar li a{
-    padding: 5px;
+    padding: 3px;
     font-size: 13px;
     list-style: none;
+}
+.topbar a:hover{
+    text-decoration: underline;
 }
 .topbar i{
     float: right;
     width: 30px;
     height: 30px;
+}
+.topbar p{
+    color: #808080;
+    font-size: 13px;
+    padding: 3px;
 }
 .left-side{
     float: left;
@@ -27,7 +35,6 @@ body{
     height: 800px;
     border-right: 2px solid #E5E9EB;
     margin-top: 1%;
-    position: fixed;
 }
 .left-side a{
     text-decoration: none;
