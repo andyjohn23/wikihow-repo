@@ -6,6 +6,20 @@
 body{
     background-color: white;
 }
+.topbar{
+    background-color: white;
+    height: 30px;
+}
+.topbar li a{
+    padding: 5px;
+    font-size: 13px;
+    list-style: none;
+}
+.topbar i{
+    float: right;
+    width: 30px;
+    height: 30px;
+}
 .left-side{
     float: left;
     background-color: rgba(232, 233, 233, 0.3);
@@ -13,6 +27,7 @@ body{
     height: 800px;
     border-right: 2px solid #E5E9EB;
     margin-top: 1%;
+    position: fixed;
 }
 .left-side a{
     text-decoration: none;
@@ -38,9 +53,10 @@ body{
     margin-top: 10%;
     margin-left: 12%;
 }
-.content-1 a{
+.content-1 li a{
     display: block;
     font-size: 13px;
+    padding: 0px 29px;
 }
 .content-1 a:hover{
     text-decoration: underline;
@@ -52,10 +68,12 @@ body{
 .content-2 h2{
     color: #808080;
     font-size: 13px;
+    padding: 0px 29px;
 }
-.content-2 a{
+.content-2 li a{
     display: block;
     font-size: 13px;
+    padding: 0px 29px;
 }
 .content-2 a:hover{
     text-decoration: underline;
@@ -67,10 +85,12 @@ body{
 .content-3 h3{
     color: #808080;
     font-size: 13px;
+    padding: 0px 29px;
 }
 .content-3 a{
     display: block;
     font-size: 13px;
+    padding: 0px 29px;
 }
 .content-3 a:hover{
     text-decoration: underline;
