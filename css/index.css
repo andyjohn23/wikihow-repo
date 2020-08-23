@@ -1,5 +1,6 @@
 * ::before, ::after{
-    margin-top: 0;
+    top: 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -19,38 +20,57 @@ body{
     text-decoration: underline;
 }
 .topbar i{
-    float: right;
     width: 30px;
-    height: 30px;
+    height: 50px;
 }
 .topbar p{
     color: #808080;
     font-size: 13px;
     padding: 3px;
 }
+.secondbar{
+    margin-left: 15%;
+}
+.second-link li a{
+    padding: 3px;
+    font-size: 13px;
+    list-style: none;
+}
+.second-link input{
+    height: 25px;
+    width: 250px;
+    padding: 10px;
+    font-size: 13px;
+}
+
 .left-side{
     float: left;
     background-color: rgba(232, 233, 233, 0.3);
-    width: 15%;
     height: 800px;
     border-right: 2px solid #E5E9EB;
-    margin-top: 1%;
+    margin-top: -2%;
+    padding: 30px; 
 }
-.left-side a{
+.logo{
+    margin-top: -15%;
+}
+.logo a{
     text-decoration: none;
     display: inline-block;
 }
-.left-side img{
+.logo img{
     width: 100px;
     height: 100px;
     object-fit: contain;
+    float: left;
+    margin-top:-8%;
 }
-.left-side h1{
+.logo h1{
     font-size: 20px;
     color: black;
     font-family: 'Noticia Text', serif;
 }
-.left-side p{
+.logo p{
     color: black;
     margin-top: -10%;
     font-family: 'Cardo', serif;
@@ -58,24 +78,23 @@ body{
 }
 .content-1{
     margin-top: 10%;
-    margin-left: 12%;
+    margin-left: -5%;
 }
 .content-1 li a{
     display: block;
     font-size: 13px;
-    padding: 0px 29px;
+    padding: 0px;
 }
 .content-1 a:hover{
     text-decoration: underline;
 }
 .content-2{
     margin-top: 10%;
-    margin-left: 12%;
+    margin-left: -5%;
 }
 .content-2 h2{
     color: #808080;
     font-size: 13px;
-    padding: 0px 29px;
 }
 .content-2 li a{
     display: block;
@@ -87,18 +106,21 @@ body{
 }
 .content-3{
     margin-top: 10%;
-    margin-left: 12%;
+    margin-left: -5%;
 }
 .content-3 h3{
     color: #808080;
     font-size: 13px;
-    padding: 0px 29px;
 }
-.content-3 a{
+.content-3 li a{
     display: block;
     font-size: 13px;
     padding: 0px 29px;
 }
 .content-3 a:hover{
     text-decoration: underline;
+}
+.body-content{
+    width: 1200px;
+    margin: auto;
 }
